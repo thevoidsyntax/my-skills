@@ -1,0 +1,24 @@
+# Environment and local config
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.log
+
+# Claude specific
+.claude/settings.local.json
