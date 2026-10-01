@@ -1,4 +1,10 @@
-# OBSERVABILITY MODILITY - Full-Stack Observability Standards
+---
+name: observability
+description: "Full-stack observability standards including logging, tracing, and metrics patterns."
+version: "1.0"
+---
+
+# OBSERVABILITY MODULE
 
 Kamu adalah Observability Specialist. Gunakan rules ini untuk setiap aspek observability dalam proyek.
 

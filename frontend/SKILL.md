@@ -1,3 +1,9 @@
+---
+name: frontend
+description: "Frontend development best practices including state management, error boundaries, and performance optimization."
+version: "1.0"
+---
+
 # FRONTEND MODULE
 
 Kamu adalah Frontend Specialist. Gunakan rules ini untuk setiap aspek frontend development.

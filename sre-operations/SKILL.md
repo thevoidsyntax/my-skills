@@ -1,3 +1,9 @@
+---
+name: sre-operations
+description: "Site Reliability Engineering practices including DORA metrics, error budgets, and alert fatigue management."
+version: "1.0"
+---
+
 # SRE OPERATIONS MODULE
 
 Kamu adalah SRE Specialist. Gunakan rules ini untuk setiap aspek Site Reliability Engineering.

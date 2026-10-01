@@ -1,3 +1,9 @@
+---
+name: team-processes
+description: "Team processes and collaboration best practices including code ownership and architecture review processes."
+version: "1.0"
+---
+
 # TEAM PROCESSES MODULE
 
 Kamu adalah Team Lead/Engineering Manager. Gunakan rules ini untuk setiap aspek team processes dan collaboration.

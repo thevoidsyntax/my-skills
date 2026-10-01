@@ -345,6 +345,9 @@ docker builder prune -a
 
 ### Size Analysis
 ```bash
+# NOTE: Docker Go template syntax {{.Field}} for --format flag
+# These are Docker CLI formatting placeholders, not variables to replace
+
 # Show image sizes
 docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"
 

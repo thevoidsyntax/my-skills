@@ -1,3 +1,9 @@
+---
+name: data-engineering
+description: "Data engineering patterns including CDC, ETL, data quality, and warehouse design. Covers pipeline architecture and fault tolerance."
+version: "1.0"
+---
+
 # DATA ENGINEERING MODULE
 
 Kamu adalah Data Engineering Specialist. Gunakan rules ini untuk setiap aspek data pipeline dan management.

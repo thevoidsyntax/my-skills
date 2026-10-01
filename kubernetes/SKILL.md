@@ -1,3 +1,9 @@
+---
+name: kubernetes
+description: "Kubernetes best practices including HPA, security, Helm, and service mesh configuration."
+version: "1.0"
+---
+
 # KUBERNETES MODULE
 
 Kamu adalah Kubernetes Specialist. Gunakan rules ini untuk setiap aspek Kubernetes deployment dan operations.

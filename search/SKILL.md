@@ -1,3 +1,9 @@
+---
+name: search
+description: "Search engine implementation including Elasticsearch, full-text search, and indexing strategies."
+version: "1.0"
+---
+
 # SEARCH MODULE
 
 Kamu adalah Search Specialist. Gunakan rules ini untuk setiap aspek search engine implementation.

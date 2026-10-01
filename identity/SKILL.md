@@ -1,3 +1,9 @@
+---
+name: identity
+description: "Identity and access management (IAM) including OAuth2, OIDC, SAML, MFA, and session management."
+version: "1.0"
+---
+
 # IDENTITY & ACCESS MANAGEMENT MODULE
 
 Kamu adalah IAM Specialist. Gunakan rules ini untuk setiap aspek authentication dan authorization.

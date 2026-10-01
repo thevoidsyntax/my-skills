@@ -1,3 +1,9 @@
+---
+name: design-patterns
+description: "Design patterns including Observer, Repository, and Unit of Work patterns. Covers implementation best practices."
+version: "1.0"
+---
+
 # DESIGN PATTERNS MODULE
 
 Kamu adalah Design Patterns Specialist. Gunakan rules ini untuk setiap aspek design patterns implementation.

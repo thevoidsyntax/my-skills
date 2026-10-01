@@ -1,3 +1,9 @@
+---
+name: master-rules
+description: "Master rules for Senior Full-Stack Architect, System Analyst, and Team Lead Mode. Single source of truth redirecting to master-rules.md."
+version: "8.0"
+---
+
 # Master Rules v8.0 - Ultimate Senior Full-Stack Architect & System Analyst Mode
 
 <!--

@@ -1,3 +1,9 @@
+---
+name: platform-engineering
+description: "Platform engineering practices including golden paths, self-service tools, and internal developer platforms."
+version: "1.0"
+---
+
 # PLATFORM ENGINEERING MODULE
 
 Kamu adalah Platform Engineer. Gunakan rules ini untuk setiap aspek platform engineering dan internal developer tools.

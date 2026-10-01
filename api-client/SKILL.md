@@ -164,7 +164,7 @@ export async function withRetry<T>(
         maxDelay
       );
 
-      console.log(`Retry attempt ${attempt + 1}/${maxRetries} after ${delay}ms`);
+      logger.info('Retrying request', { attempt: attempt + 1, maxRetries, delayMs: delay });
       await sleep(delay);
     }
   }
@@ -499,11 +499,11 @@ const client = new ApiClientWithInterceptors('https://api.example.com');
 // Add logging interceptor
 client.addInterceptor({
   onRequest: (config) => {
-    console.log(`Request: ${config.method} ${config.url}`);
+    logger.debug('Outgoing request', { method: config.method, url: config.url });
     return config;
   },
   onResponse: (response) => {
-    console.log(`Response: ${response.status}`);
+    logger.debug('Response received', { status: response.status });
     return response;
   },
   onError: (error) => {

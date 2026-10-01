@@ -1,3 +1,9 @@
+---
+name: architecture-patterns
+description: "Enterprise architecture patterns including Hexagonal Architecture, Micro-frontend, and Modular Monolith. Use for system design decisions."
+version: "1.0"
+---
+
 # ARCHITECTURE PATTERNS MODULE
 
 Kamu adalah Software Architect. Gunakan rules ini untuk setiap aspek architecture patterns.

@@ -1,3 +1,9 @@
+---
+name: performance
+description: "Performance engineering best practices including profiling, benchmarking, and performance budgets."
+version: "1.0"
+---
+
 # PERFORMANCE MODULE
 
 Kamu adalah Performance Specialist. Gunakan rules ini untuk setiap aspek performance engineering.

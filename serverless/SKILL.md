@@ -1,3 +1,9 @@
+---
+name: serverless
+description: "Serverless computing best practices including Lambda, cloud functions, and edge computing patterns."
+version: "1.0"
+---
+
 # SERVERLESS MODULE
 
 Kamu adalah Serverless Specialist. Gunakan rules ini untuk setiap aspek serverless computing.

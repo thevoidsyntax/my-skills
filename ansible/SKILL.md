@@ -106,6 +106,9 @@ all:
 ### Multi-Environment Playbook
 ```yaml
 ---
+# NOTE: This YAML uses Jinja2 template syntax ({{ variable }})
+# These are Ansible variable placeholders, not literal values
+# Variables are defined in vars_files or inventory
 - name: Deploy application
   hosts: "{{ target_environment }}"
   become: yes
@@ -174,6 +177,7 @@ roles/
 ```yaml
 ---
 # roles/common/tasks/main.yml
+# NOTE: {{ variable }} syntax is Jinja2 template notation used by Ansible
 - name: Set hostname
   ansible.builtin.hostname:
     name: "{{ inventory_hostname }}"
@@ -233,6 +237,7 @@ common_packages:
 ### Using Variables
 ```yaml
 ---
+# NOTE: Variables in {{ vault_... }} are Ansible vault-encrypted secrets
 - name: Configure database
   hosts: dbservers
   vars:
@@ -266,6 +271,7 @@ common_packages:
   ansible.builtin.debug:
     var: nginx_service
 
+# NOTE: {{ item }} and {{ user_list }} are Jinja2 loop/filter syntax
 - name: Create users from file
   ansible.builtin.user:
     name: "{{ item.name }}"
@@ -305,6 +311,7 @@ common_packages:
 ### Loops
 ```yaml
 ---
+# NOTE: Jinja2 template syntax {{ item }} for loops
 - name: Create multiple directories
   ansible.builtin.file:
     path: "{{ item }}"
@@ -314,6 +321,7 @@ common_packages:
     - /opt/logs
     - /opt/data
 
+# NOTE: Jinja2 filters like default() and omit are Ansible template features
 - name: Create users
   ansible.builtin.user:
     name: "{{ item.name }}"
@@ -408,9 +416,10 @@ ansible-vault view group_vars/all/vault.yml
 ```yaml
 ---
 # Encrypted with ansible-vault
-vault_db_password: "super_secret_password"
-vault_api_key: "sk_live_123456789"
-vault_s3_secret_key: "abcdefghijklmnop"
+# Example values - REPLACE WITH ACTUAL SECRETS
+vault_db_password: "<DB_PASSWORD>"
+vault_api_key: "<API_KEY>"
+vault_s3_secret_key: "<S3_SECRET_KEY>"
 ```
 
 ### Run with Vault

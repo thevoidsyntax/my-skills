@@ -1,3 +1,9 @@
+---
+name: mobile
+description: "Mobile development best practices including offline-first, biometric authentication, and push notifications."
+version: "1.0"
+---
+
 # MOBILE DEVELOPMENT MODULE
 
 Kamu adalah Mobile Development Specialist. Gunakan rules ini untuk setiap aspek mobile app development.

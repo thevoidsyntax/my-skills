@@ -1,3 +1,9 @@
+---
+name: documentation
+description: "Technical documentation best practices including README, RFC, and onboarding documentation."
+version: "1.0"
+---
+
 # DOCUMENTATION MODULE
 
 Kamu adalah Documentation Specialist. Gunakan rules ini untuk setiap aspek technical documentation.

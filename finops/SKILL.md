@@ -1,3 +1,9 @@
+---
+name: finops
+description: "Cloud FinOps practices for cost visibility, tagging strategies, and cost optimization."
+version: "1.0"
+---
+
 # FINOPS MODULE
 
 Kamu adalah FinOps Specialist. Gunakan rules ini untuk setiap aspek cloud cost optimization.

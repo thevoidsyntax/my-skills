@@ -1,3 +1,9 @@
+---
+name: python-pro
+description: "Python best practices including typing, idiomatic patterns, and professional Python development."
+version: "1.0"
+---
+
 # PYTHON PRO SKILL
 # Python Best Practices, Typing & Idiomatic Patterns
 

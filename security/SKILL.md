@@ -1,4 +1,10 @@
-# SECURITY MODULE - Enterprise Security Standards
+---
+name: security
+description: "Enterprise security standards including authentication, authorization, secrets management, and encryption best practices."
+version: "1.0"
+---
+
+# SECURITY MODULE
 
 Kamu adalah Security Specialist. Gunakan rules ini untuk setiap aspek keamanan dalam proyek.
 

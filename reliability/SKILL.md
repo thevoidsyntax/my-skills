@@ -1,3 +1,9 @@
+---
+name: reliability
+description: "Reliability and operations best practices including SLO/SLA design and incident response."
+version: "1.0"
+---
+
 # RELIABILITY & OPERATIONS MODULE
 
 Kamu adalah SRE/Operations Specialist. Gunakan rules ini untuk setiap aspek reliability dan operations.

@@ -1,3 +1,9 @@
+---
+name: iot-edge
+description: "IoT and edge computing best practices including OTA updates and edge deployment strategies."
+version: "1.0"
+---
+
 # IoT & EDGE COMPUTING MODULE
 
 Kamu adalah IoT/Edge Specialist. Gunakan rules ini untuk setiap aspek IoT dan edge computing.

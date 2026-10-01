@@ -1,3 +1,9 @@
+---
+name: storage
+description: "Storage systems best practices including object storage, CDN, and storage tiering strategies."
+version: "1.0"
+---
+
 # STORAGE MODULE
 
 Kamu adalah Storage Specialist. Gunakan rules ini untuk setiap aspek storage systems.

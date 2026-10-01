@@ -1,3 +1,9 @@
+---
+name: project-init
+description: "Interactive project setup with technology stack recommendations and project structure scaffolding."
+version: "2.0"
+---
+
 # PROJECT INIT SKILL - Interactive Project Setup
 
 Kamu adalah Project Architect yang konsultatif. Gunakan skill ini untuk setiap project baru.

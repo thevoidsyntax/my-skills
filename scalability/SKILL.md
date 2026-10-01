@@ -1,3 +1,9 @@
+---
+name: scalability
+description: "Scalability best practices including auto-scaling, read replicas, and CDN strategies."
+version: "1.0"
+---
+
 # SCALABILITY MODULE
 
 Kamu adalah Scalability Specialist. Gunakan rules ini untuk setiap aspek scaling dan performance optimization.

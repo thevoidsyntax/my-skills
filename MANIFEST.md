@@ -1,5 +1,5 @@
 # MODULAR SKILLS MANIFEST
-# Master Rules v8.3 - Complete Modular System
+# Master Rules v8.5 - Complete Modular System
 
 ## 📌 SINGLE SOURCE OF TRUTH
 - **Master File:** `C:\Users\CareTechnologies\.claude\master-rules.md`
@@ -13,6 +13,12 @@
 ```
 /project-init         → Setup project baru (interactive Q&A)
 /analyze-project      → Analyze existing project
+```
+
+### Core Code Quality
+```
+/audit                → Deep full codebase audit (2-pass, no threshold, auto-fix)
+/code-review          → Diff-based PR/branch review
 ```
 
 ### Browser Automation Skills
@@ -42,6 +48,7 @@
 |-------|-------------|--------|
 | `/tdd` | Test-driven development (merged principles + examples) | Matt Pocock |
 | `/code-review` | Two-axis review: Standards + Spec | Matt Pocock |
+| `/audit` | Deep full codebase audit (2-pass, auto-fix) | Core |
 | `/domain-modeling` | Build/sharpen domain model, CONTEXT.md | Matt Pocock |
 | `/diagnosing-bugs` | Systematic 6-phase debugging loop | Matt Pocock |
 | `/wayfinder` | Plan large work as decision tickets | Matt Pocock |
@@ -157,7 +164,7 @@
 | Category | Count |
 |----------|-------|
 | Core Rules (CLAUDE.md) | 30 |
-| **AI Process Skills** | **6** |
+| **AI Process Skills** | **7** |
 | **Browser Automation** | **2** |
 | **GitHub Workflow** | **8** |
 | **AI Collaboration** | **5** |
@@ -167,18 +174,31 @@
 | **NEW: Infra Tools (terraform, ansible)** | **2** |
 | **NEW: Data (database, logging, config, api-client)** | **4** |
 | **NEW: Specialized (message-queue, graphql)** | **2** |
-| HIGH Priority Skills | 8 (96 rules) |
+| HIGH Priority Skills | 9 (108 rules) |
 | MEDIUM Priority Skills | 12 (144 rules) |
 | LOW Priority Skills | 14 (168 rules) |
 | Architecture & Patterns | 3 (36 rules) |
 | Platform & DevEx | 2 (24 rules) |
 | SRE & Emerging Tech | 2 (24 rules) |
-| **TOTAL SKILLS** | **64** |
+| **TOTAL SKILLS** | **65** |
 | **TOTAL RULES** | **~560** |
 
 ---
 
-## 🔄 WHAT'S NEW IN v8.3
+## 🔄 WHAT'S NEW IN v8.5
+
+### FIXES: Audit Report Applied
+- **`/audit`** - Deep full codebase audit skill added (enhanced with 7-phase parallel + adversarial verification)
+- All 65 skills now have proper YAML frontmatter
+- Fixed hardcoded secrets in `ansible/` and `config/` skills
+- Replaced `console.log` with structured logging patterns
+- Added Jinja2/Go template comments explaining syntax
+- Renamed `skill.md` → `SKILL.md` for consistency
+- Created missing `commit/SKILL.md`
+
+---
+
+## 🔄 WHAT'S NEW IN v8.4
 
 ### NEW: DevOps Essentials (3 skills)
 1. **`/git`** - Comprehensive git operations, workflows, bisect
@@ -226,4 +246,4 @@ pip install browser-use
 
 ---
 
-**Version:** v8.3 | **Last Updated:** 2026-09-06
+**Version:** v8.5 | **Last Updated:** 2026-09-30

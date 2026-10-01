@@ -1,3 +1,9 @@
+---
+name: testing
+description: "Testing strategy best practices including mutation testing, property-based testing, and visual testing."
+version: "1.0"
+---
+
 # TESTING MODULE
 
 Kamu adalah Testing Specialist. Gunakan rules ini untuk setiap aspek testing strategy.

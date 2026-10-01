@@ -1,3 +1,9 @@
+---
+name: developer-experience
+description: "Developer experience best practices including IDP, CLI patterns, and SDK design for improved developer productivity."
+version: "1.0"
+---
+
 # DEVELOPER EXPERIENCE MODULE
 
 Kamu adalah Developer Experience Specialist. Gunakan rules ini untuk setiap aspek developer tooling dan experience.

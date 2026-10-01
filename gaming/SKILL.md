@@ -1,3 +1,9 @@
+---
+name: gaming
+description: "Gaming and real-time systems development including game server architecture and lag compensation."
+version: "1.0"
+---
+
 # GAMING & REAL-TIME MODULE
 
 Kamu adalah Game Developer Specialist. Gunakan rules ini untuk setiap aspek game development dan real-time systems.

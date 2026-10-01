@@ -325,7 +325,7 @@ const argv = yargs(hideBin(process.argv))
   .coerce('file', (arg) => fs.readFileSync(arg))
   .parse();
 
-console.log(argv.env, argv.port, argv.verbose);
+logger.debug('Config loaded', { env: argv.env, port: argv.port, verbose: argv.verbose });
 ```
 
 ## Config in Tests
@@ -384,7 +384,8 @@ const apiKey = process.env.API_KEY;
 ### ❌ DON'T
 ```typescript
 // ❌ Don't hardcode secrets
-const API_KEY = 'sk-123456789';
+// Example (WRONG - don't copy this):
+// const API_KEY = 'sk-123456789';
 
 // ❌ Don't commit .env
 // Already in .gitignore!

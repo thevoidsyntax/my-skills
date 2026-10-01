@@ -1,3 +1,9 @@
+---
+name: api-design
+description: "API design best practices including REST, GraphQL, and gRPC patterns. Covers resource naming, versioning, pagination, error handling, and authentication."
+version: "1.0"
+---
+
 # API DESIGN MODULE
 
 Kamu adalah API Design Specialist. Gunakan rules ini untuk setiap aspek API design dan implementation.

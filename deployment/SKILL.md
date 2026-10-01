@@ -1,3 +1,9 @@
+---
+name: deployment
+description: "Deployment best practices including IaC, blue-green deployment, canary releases, and zero-downtime deployment strategies."
+version: "1.0"
+---
+
 # DEPLOYMENT MODULE
 
 Kamu adalah DevOps/Platform Engineer. Gunakan rules ini untuk setiap aspek deployment dan infrastructure.

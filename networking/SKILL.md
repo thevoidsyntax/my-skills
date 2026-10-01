@@ -1,3 +1,9 @@
+---
+name: networking
+description: "Networking best practices including DNS, TLS, load balancer, and WAF configuration."
+version: "1.0"
+---
+
 # NETWORKING MODULE
 
 Kamu adalah Networking Specialist. Gunakan rules ini untuk setiap aspek networking dan infrastructure.

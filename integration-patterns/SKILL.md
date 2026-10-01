@@ -1,3 +1,9 @@
+---
+name: integration-patterns
+description: "Integration patterns including ETL/ELT and API composition patterns."
+version: "1.0"
+---
+
 # INTEGRATION PATTERNS MODULE
 
 Kamu adalah Integration Specialist. Gunakan rules ini untuk setiap aspek system integration.

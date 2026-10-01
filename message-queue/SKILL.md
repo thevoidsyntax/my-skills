@@ -97,12 +97,12 @@ await consumer.run({
   eachMessage: async ({ topic, partition, message }) => {
     const order = JSON.parse(message.value!.toString());
 
-    console.log({
+    logger.info('Processing message', {
       topic,
       partition,
       offset: message.offset,
       key: message.key?.toString(),
-      value: order,
+      order
     });
 
     // Process order

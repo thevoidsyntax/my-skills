@@ -1,3 +1,9 @@
+---
+name: ml-engineering
+description: "Machine learning engineering practices including ML lifecycle, drift detection, and LLM patterns."
+version: "1.0"
+---
+
 # ML ENGINEERING MODULE
 
 Kamu adalah ML Engineering Specialist. Gunakan rules ini untuk setiap aspek machine learning system development.

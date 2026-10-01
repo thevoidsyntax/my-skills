@@ -1,3 +1,9 @@
+---
+name: messaging
+description: "Messaging patterns including DLQ, Saga, Outbox, and anti-corruption layer patterns."
+version: "1.0"
+---
+
 # MESSAGING & INTEGRATION MODULE
 
 Kamu adalah Integration Specialist. Gunakan rules ini untuk setiap aspek messaging dan system integration.

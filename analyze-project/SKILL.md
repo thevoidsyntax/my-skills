@@ -1,3 +1,9 @@
+---
+name: analyze-project
+description: "Tech stack detection for existing projects. Analyzes project files to identify technology stack and auto-invoke required skills. Use when user wants to understand or start working on an existing project."
+version: "2.0"
+---
+
 # ANALYZE PROJECT SKILL v2.0
 # Tech Stack Detection for Existing Projects
 

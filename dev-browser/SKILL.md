@@ -39,7 +39,7 @@ dev-browser install  # only if can't find Chrome
 dev-browser --headless <<'EOF'
 const page = await browser.getPage("main");
 await page.goto("https://example.com");
-console.log(await page.title());
+logger.info('Page title:', await page.title());
 EOF
 ```
 
@@ -50,7 +50,7 @@ dev-browser chrome
 
 # In another terminal, attach
 dev-browser --connect <<'EOF'
-console.log(await browser.listPages());
+logger.info('Active pages:', await browser.listPages());
 EOF
 ```
 
@@ -94,9 +94,10 @@ readFile(name)        // Read from tmp folder
 
 ### Output
 ```javascript
-console.log()
-console.warn()
-console.error()
+// dev-browser page output methods (not console.log in code)
+logger.info()  // Use structured logging instead of console.log
+logger.warn()
+logger.error()
 ```
 
 ## Recommended Workflow
